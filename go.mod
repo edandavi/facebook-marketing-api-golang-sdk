@@ -1,8 +1,6 @@
-module github.com/justwatch/facebook-marketing-api-golang-sdk
+module github.com/edandavi/facebook-marketing-api-golang-sdk
 
-replace github.com/justwatch/facebook-marketing-api-golang-sdk => ../facebook-marketing-api-golang-sdk
-
-go 1.20
+go 1.22
 
 require (
 	github.com/PuerkitoBio/goquery v1.5.0
@@ -15,7 +13,7 @@ require (
 require (
 	github.com/andybalholm/cascadia v1.0.0 // indirect
 	github.com/go-logfmt/logfmt v0.4.0 // indirect
-	github.com/go-stack/stack v1.8.0 // indirect
+	github.com/go-stack/stack v1.8.1 // indirect
 	github.com/gopherjs/gopherjs v0.0.0-20181017120253-0766667cb4d1 // indirect
 	github.com/jtolds/gls v4.20.0+incompatible // indirect
 	github.com/kr/logfmt v0.0.0-20140226030751-b84e30acd515 // indirect
