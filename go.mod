@@ -1,5 +1,7 @@
 module github.com/justwatch/facebook-marketing-api-golang-sdk
 
+replace github.com/justwatch/facebook-marketing-api-golang-sdk => ../facebook-marketing-api-golang-sdk
+
 go 1.20
 
 require (
